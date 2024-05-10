@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Your Name - Web Developer</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+<h1>Your Name</h1>
+<h2>Web Developer</h2>
+<img src="profile.jpg" alt="your Name">
+</header>
+<nav>
+<ul>
+<li><a href="#about">About Me</a></li>
+<li><a href="#projects">Projects</a></li>
+<li><a href="#contract">Contract</a><li>
+</ul>
+</nav>
+<section id="about">
+<h2>About Me</h2>
+<p>Welcome to my protoflia website! I am a passionate web developer eith in HTML, CSS, JavaScript, and more. I love creating beautiful and functional website that makes a positive impact.</p>
+</section>
+<section id="projects">
+<h2>Projects</h2>
+<p>Here are some of my recent projects:</p>
+<!-- add project details here -->
+</section>
+<section id="contact">
+<h2>Contact</h2>
+<p>Feel free to reach out to me via email at <a href="mailto:youremail@example.com">youremail@example.com</a> or connect with me on<a href="https://linkedin.com/yourprofile">LinkedIn</a>.</p>
+</section>
+<footer>
+<p>&copy; 2024 Your Name. All rights reserved.</p>
+</footer>
+</body>
+</html>
+CSS(styles.css)
+/* Global style */
+body {
+font-family: Arial, sans-serif;
+margin: 0;
+padding: o;
+}
+header {
+background-color: #333;
+color: #fff;
+text-align: center;
+padding: 20px 0;
+}
+header img {
+border-radius: 50%;width: 15px;
+height: 150;
+}
+nav ul {
+list-style-type: none;
+padding; 0;
+}
+nav ul li {
+display: inline;
+margin-right: 20;
+}
+section {
+padding: 50px 20px;
+text-align: center;
+}
+footer {
+background-color: #333;
+color: #fff;
+text-align: centre;
+padding: 20px 0;
+position: fixed;
+bottom: 0;
+width: 100%;
+}
+
+
+
